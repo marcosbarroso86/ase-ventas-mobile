@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "ASE Ventas",
+    "slug": "ASE-Ventas",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.9.3",
+    "android": {
+      "package": "ar.com.ase.ventas",
+      "versionCode": 1,
+      "useNextNotificationsApi": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/AseIconSquare.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ar.com.ase.ventas",
+      "buildNumber": "202103171500",
+      "usesIcloudStorage": true,
+      "infoPlist": {
+        "UISupportsDocumentBrowser": true,
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true,
+        "NSPhotoLibraryUsageDescription": "Los documentos adjuntos serán recibidos, descargados y guardados, para ser procesados internamente en el alta del nuevo beneficiario en ASE.",
+        "NSCameraUsageDescription": "Las imágenes de las fotos de los formularios, serán recibidas y guardadas, para ser procesadas internamente en el alta del nuevo beneficiario en ASE.",
+        "CFBundleLocalizations" : ["es"],
+        "CFBundleDevelopmentRegion" : "es",
+        "CFBundleAllowMixedLocalizations": true
+      }
+    },
+    "locales": {
+      "es": "./locales/es.json"
+    }
+  }
+}
